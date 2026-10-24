@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Salidas que los scripts regeneran
+sam/para_SAM/
+sam/resultados_referencia/serie_horaria_referencia.csv
+sam/*.xlsx
+sam/barrido.log
+demanda/*.xlsx
+graficas/*.svg
+
+# Datos de terceros que se descargan aparte (ver README)
+graficas/mapa/
+
+# Secretos
+.env
+*.env
+secrets.h
+redes.h
+
+# Excel / LibreOffice abiertos
+~$*
+.~lock.*#
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
